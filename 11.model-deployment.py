@@ -47,6 +47,6 @@ def remove_bg(upload,threshold,alpha_matting):
 
 
 if my_upload is not None:
-    remove_bg(upload=my_upload,threshold=threshold,aplha_matting=alpha_matting)
+    remove_bg(upload=my_upload,threshold=threshold,alpha_matting=alpha_matting)
 else:
     remove_bg('whitehorse.jpg', threshold=threshold, alpha_matting=alpha_matting)
